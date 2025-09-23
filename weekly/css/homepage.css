@@ -1,0 +1,55 @@
+﻿@charset "UTF-8";
+/* CSS Document */
+body {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    /*font-weight: ;*/
+    font-style: normal;
+    line-height:1.7em;
+    background-color:crimson;
+}
+
+#wrapper {
+    padding:0 1%;
+    float:left;
+    background-color:linen;
+}
+
+.weekly {
+    width:45%;
+    float:left;
+    margin: 0 5%;
+}
+
+#project {
+    width:45%;
+    float:left;
+}
+
+h1 {
+    font-family: "lumios-brush", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: crimson;
+}
+
+a:link {
+    color:gold;
+    text-decoration: none;
+}
+
+a:visited {
+    color: red;
+    text-decoration: none;
+}
+a:hover {
+    color: darkorange;
+    text-decoration: underline;
+}
+
+.demo {
+    color: crimson;
+    font-family: "lumios-brush", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
