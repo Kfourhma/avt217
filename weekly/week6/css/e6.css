@@ -1,5 +1,5 @@
 ﻿.container{
-width:70%;
+width:95%;
 margin: 0 auto;
 position:relative;
 }
@@ -25,4 +25,18 @@ img{
 }
 .insidebox2{
     background-color:skyblue;
+}
+
+.box3{
+    position:sticky;
+    bottom:20px;
+    background-color:deepskyblue;
+    padding: 20px 50px;
+}
+
+.box4{
+    position:static;
+}
+.box5{
+    float: right;
 }
