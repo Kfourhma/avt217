@@ -1,0 +1,73 @@
+@charset "UTF-8";
+/* CSS Document */
+  body {
+    text-align: center;
+    background:url("../img/halloween.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+#container {
+
+  }
+
+
+/* tell browser don't display it when screen is wider than 768px */
+  .mobile-only {
+    display: none;
+  }
+
+p {
+    margin-top: 40vh;
+    margin-right: 40vh;
+    margin-left: 40vh;
+    /*text-transform:none;*/
+    font-size: 8em;
+    color: darkgoldenrod;
+    text-shadow: -4px -4px black,4px -4px black, -4px 4px black, 4px 4px black;
+}
+
+#cursive {
+    font-family: "Are You Serious", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* tell browser to do the followings when screen is at and narrower than 768px */
+  @media only screen and (max-width: 768px) {
+	  
+    body {
+    background:url("../img/mobile-halloween.jpg") no-repeat center center fixed;
+    }
+	  
+	#container {
+    margin-top: 20vh;
+    }
+
+    p {
+        margin-top: 20vh;
+        margin-right: 20vh;
+        margin-left: 20vh;
+        /*text-transform:none;*/
+        font-size: 5em;
+        color: darkgoldenrod;
+        text-shadow: -2px -2px black,2px -2px black, -2px 2px black, 2px 2px black;
+    }
+
+    #cursive {
+        font-family: "Are You Serious", cursive;
+        font-weight: 400;
+        font-style: normal;
+    }
+	  
+    .mobile-only {
+    display: block;
+    }
+	  /* Now the style and content for desktop will not be displied */
+    .desktop-only {
+    display: none;
+    }
+
+} /* don't forget to close the styles for mobile*/
