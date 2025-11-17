@@ -6,32 +6,230 @@
 
 body {
     background-color: #D8C49E;
+    min-height:100vh;
 }
 
-#flexparent{
-    
+@media (min-width:769px) {
+    .desktop-only{
+        display:flex;
+    }
+    .mobile-only {
+        display: none;
+    }
+    img {
+        width: 1058px;
+        height: 372px;
+    }
+
+    li {
+        display: inline;
+        float: right;
+        padding: 15px;
+        font-size: 44px;
+        color: white;
+    }
+
+    a:link, a:hover, a:visited {
+        text-decoration: none;
+        color: white;
+        font-family: "Major Mono Display", monospace;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    h1 {
+        font-family: "Major Mono Display", monospace;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 48px;
+        padding-top: 29px;
+        padding-left: 50px;
+    }
+
+    h2 {
+        font-family: "Kolker Brush", cursive;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 96px;
+    }
+
+    h3 {
+        font-family: "Major Mono Display", monospace;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 32px;
+    }
+
+    #wrapper {
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+    }
+
+    #flexparent {
+        display: flex;
+        flex-direction: column;
+        position:relative;
+    }
+
+    #widecolumn {
+        width: 100%;
+        height: 144px;
+        background-color: #BD0707;
+        color: white;
+        position:sticky;
+        top:0;
+    }
+
+    #widecolumn1 {
+        width: 100%;
+        height: 128px;
+        background-color: #A0361B;
+        color: white;
+        justify-content: center;
+        position: sticky;
+        margin-top: auto;
+        text-align: center;
+        bottom:0;
+    }
+
+    .flexbox {
+        display: flex;
+        padding-top: 25px;
+        justify-content: flex-end;
+        margin: 50px auto 10px auto;
+    }
+
+    .flexbox1 {
+        display: flex;
+        justify-content: center;
+        margin: 10px auto 20px auto;
+        text-align: center;
+    }
+
+    .major-mono-display-regular {
+        font-family: "Major Mono Display", monospace;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    .kolker-brush-regular {
+        font-family: "Kolker Brush", cursive;
+        font-weight: 400;
+        font-style: normal;
+    }
 }
 
-#widecolumn {
-    width: 100%;
-    height: 144px;
-    background-color: #BD0707;
-    color: white;
-}
+@media (max-width:768px) {
+    .desktop-only {
+        display: none;
+    }
+    .mobile-only{
+        display:flex;
+    }
 
-#widecolumn1 {
-    width: 100%;
-    height: 128px;
-    background-color: #A0361B;
-    color:white;
-    
-}
+    img {
+        width: 524px;
+        height: 372px;
+    }
 
-.flexbox{
-    padding-top: 89px;
-    justify-content: center;
-}
+    li {
+        display: inline;
+        float: right;
+        padding: 9px;
+        font-size: 18px;
+        color: white;
+    }
 
-.flexbox1{
+    a:link, a:hover, a:visited {
+        text-decoration: none;
+        color: white;
+        font-family: "Major Mono Display", monospace;
+        font-weight: 400;
+        font-style: normal;
+    }
 
+    h1 {
+        font-family: "Major Mono Display", monospace;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 24px;
+        padding-top: 7px;
+        padding-left: 11px;
+    }
+
+    h2 {
+        font-family: "Kolker Brush", cursive;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 36px;
+    }
+
+    h3 {
+        font-family: "Major Mono Display", monospace;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 18px;
+        padding-top:7px;
+    }
+
+    #wrapper {
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+        min-height:100vh;
+    }
+
+    #flexparent {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+
+    #widecolumn {
+        width: 100%;
+        height: 64px;
+        background-color: #BD0707;
+        color: white;
+        position: sticky;
+        top:0;
+    }
+
+    #widecolumn1 {
+        width: 100%;
+        height: 72px;
+        background-color: #A0361B;
+        color: white;
+        justify-content: center;
+        position: sticky;
+        margin-top: auto;
+        text-align: center;
+        bottom:0;
+    }
+
+    .flexbox {
+        display: flex;
+        padding-top: 89px;
+        justify-content: flex-end;
+        margin: 10px auto 20px auto;
+    }
+
+    .flexbox1 {
+        display: flex;
+        justify-content: center;
+        margin: 10px auto 20px auto;
+        text-align: center;
+    }
+
+    .major-mono-display-regular {
+        font-family: "Major Mono Display", monospace;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    .kolker-brush-regular {
+        font-family: "Kolker Brush", cursive;
+        font-weight: 400;
+        font-style: normal;
+    }
 }
