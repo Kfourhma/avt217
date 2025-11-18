@@ -23,9 +23,8 @@ body {
     li {
         display: inline;
         float: right;
-        padding: 15px;
+        padding: 0px 5px 5px 25px;
         font-size: 44px;
-        color: white;
     }
 
     a:link, a:hover, a:visited {
@@ -57,6 +56,7 @@ body {
         font-weight: 400;
         font-style: normal;
         font-size: 96px;
+        padding:0px 40px 0px 40px;
     }
 
     h3 {
@@ -105,7 +105,7 @@ body {
         background-color: #A0361B;
         color: white;
         justify-content: center;
-        position: sticky;
+        position: fixed;
         margin-top: auto;
         text-align: center;
         bottom:0;
@@ -113,7 +113,7 @@ body {
 
     .flexbox {
         display: flex;
-        padding-top: 25px;
+        padding-top: 10px;
         justify-content: space-between;
         margin: 50px auto 10px auto;
     }
@@ -147,14 +147,14 @@ body {
     }
 
     .home {
-        width: 524px;
+        width: 480px;
         height: 372px;
     }
 
     li {
         display: inline;
         float: right;
-        padding: 9px;
+        padding: 0px 5px 5px 5px;
         font-size: 18px;
         color: white;
     }
@@ -195,7 +195,7 @@ body {
         font-family: "Major Mono Display", monospace;
         font-weight: 400;
         font-style: normal;
-        font-size: 18px;
+        font-size: 14px;
         padding-top:7px;
     }
 
