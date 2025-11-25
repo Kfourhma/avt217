@@ -74,6 +74,15 @@ body {
         font-size: 96px;
     }
 
+    .cart-button{
+        float:right;
+        padding:15px 15px 0px 0px;
+    }
+
+    .shop-button {
+        padding: 15px 0px 0px 15px;
+    }
+
     #wrapper {
         display: flex;
         flex-direction: column;
@@ -99,6 +108,15 @@ body {
         top:0;
     }
 
+    #widecolumn3 {
+        width: 100%;
+        height: 96px;
+        background-color: indianred;
+        color: white;
+        position: sticky;
+        top: 0;
+    }
+
     #widecolumn1 {
         width: 100%;
         height: 128px;
@@ -109,6 +127,18 @@ body {
         margin-top: auto;
         text-align: center;
         bottom:0;
+    }
+
+    #widecolumn2 {
+        width: 100%;
+        height: 128px;
+        background-color: #A0361B;
+        color: white;
+        justify-content: center;
+        position: sticky;
+        margin-top: auto;
+        text-align: center;
+        bottom: 0;
     }
 
     .flexbox {
@@ -206,6 +236,15 @@ body {
         font-size: 36px;
     }
 
+    .cart-button {
+        float: right;
+        padding: 15px 15px 0px 0px;
+    }
+
+    .shop-button {
+        padding: 15px 0px 0px 15px;
+    }
+
     #wrapper {
         display: flex;
         flex-direction: column;
@@ -220,12 +259,21 @@ body {
     }
 
     #widecolumn {
-        width: 100%;
+        width: 100vw;
         height: 64px;
         background-color: #BD0707;
         color: white;
         position: sticky;
         top:0;
+    }
+    
+    #widecolumn3 {
+        width: 100vw;
+        height: 64px;
+        background-color: indianred;
+        color: white;
+        position: sticky;
+        top: 0;
     }
 
     #widecolumn1 {
@@ -234,10 +282,22 @@ body {
         background-color: #A0361B;
         color: white;
         justify-content: center;
-        position: sticky;
+        position: fixed;
         margin-top: auto;
         text-align: center;
         bottom:0;
+    }
+
+    #widecolumn2 {
+        width: 100%;
+        height: 72px;
+        background-color: #A0361B;
+        color: white;
+        justify-content: center;
+        position: sticky;
+        margin-top: auto;
+        text-align: center;
+        bottom: 0;
     }
 
     .flexbox {
