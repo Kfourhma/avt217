@@ -20,6 +20,31 @@ body {
         height: 372px;
     }
 
+    .gallery {
+        width: 736px;
+        height: 489px;
+    }
+
+    figure {
+        display:flex;
+    }
+
+    figcaption {
+        width:100%;
+    }
+
+    .image-left {
+        flex-direction: row;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .image-right {
+        flex-direction: row-reverse;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
     li {
         display: inline;
         float: right;
@@ -40,6 +65,11 @@ body {
         font-weight: 400;
         font-style: normal;
         font-size: 86px;
+    }
+    
+    .exhibit-p {
+        padding: 50px;
+        font-size: 64px;
     }
 
     h1 {
@@ -72,6 +102,11 @@ body {
         font-weight: 400;
         font-style: normal;
         font-size: 96px;
+    }
+
+    .exhibitionheader {
+        padding-top: 15px;
+        padding-bottom: 15px;
     }
 
     .cart-button{
@@ -155,6 +190,42 @@ body {
         text-align: center;
     }
 
+    .flexbox2 {
+        display: flex;
+        justify-content: space-between;
+        margin: 10px auto 20px auto;
+        text-align: center;
+    }
+
+    .flexbox3 {
+        display: flex;
+        justify-content: space-between;
+        margin: 10px auto 20px auto;
+        text-align: center;
+    }
+
+    .flexbox4 {
+        display: flex;
+        justify-content: space-between;
+        margin: 10px auto 20px auto;
+        text-align: center;
+    }
+
+    .flexbox5 {
+        display: flex;
+        justify-content: space-between;
+        margin: 10px auto 20px auto;
+        text-align: center;
+    }
+
+    .flexbox6 {
+        display: flex;
+        justify-content: space-between;
+        margin: 10px auto 20px auto;
+        text-align: center;
+        padding-bottom:100px;
+    }
+
     .major-mono-display-regular {
         font-family: "Major Mono Display", monospace;
         font-weight: 400;
@@ -181,6 +252,12 @@ body {
         height: 372px;
     }
 
+
+    .gallery {
+        width: 480px;
+        height: 480px;
+    }
+
     li {
         display: inline;
         float: right;
@@ -203,6 +280,11 @@ body {
         font-style: normal;
         font-size: 48px;
         margin:20px;
+    }
+
+    .exhibit-p {
+        padding: 50px;
+        font-size: 48px;
     }
 
     h1 {
@@ -234,6 +316,11 @@ body {
         font-weight: 400;
         font-style: normal;
         font-size: 36px;
+    }
+
+    .exhibitionheader {
+        padding-top: 15px;
+        padding-bottom: 10px;
     }
 
     .cart-button {
@@ -312,6 +399,42 @@ body {
         justify-content: center;
         margin: 10px auto 20px auto;
         text-align: center;
+    }
+
+    .flexbox2 {
+        display: flex;
+        justify-content: space-between;
+        margin: 10px auto 20px auto;
+        text-align: center;
+    }
+
+    .flexbox3 {
+        display: flex;
+        justify-content: space-between;
+        margin: 10px auto 20px auto;
+        text-align: center;
+    }
+
+    .flexbox4 {
+        display: flex;
+        justify-content: space-between;
+        margin: 10px auto 20px auto;
+        text-align: center;
+    }
+
+    .flexbox5 {
+        display: flex;
+        justify-content: space-between;
+        margin: 10px auto 20px auto;
+        text-align: center;
+    }
+
+    .flexbox6 {
+        display: flex;
+        justify-content: space-between;
+        margin: 10px auto 20px auto;
+        text-align: center;
+        padding-bottom: 100px;
     }
 
     .major-mono-display-regular {
